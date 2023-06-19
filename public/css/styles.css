@@ -1,0 +1,918 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(226, 224, 224);
+}
+
+header {
+    background-image: url(imagenes/vestidonavidad.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(235, 59, 59);
+    display: flex;
+
+}
+
+.menu .navbar ul li a:hover {
+    color: blue;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header.content {
+    display: flex;
+}
+
+.content {
+    padding: 150px 150px 0px 0px;
+}
+
+.content h1 {
+    color: blue);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: rgba(170, 174, 255, 0.3);
+    border: 1px solid aqua;
+    margin: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    background-color: gray;
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-1:hover {
+    background-color: blueviolet;
+}
+
+.services {
+    padding: 10px 0px;
+    margin: 50px 50px;
+    image-rendering: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #0022AA;
+}
+
+.service {
+    padding: 25px;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 20px rgba 135, 141, 214, 0.3;
+}
+
+.service img {
+    margin-top: -12px;
+}
+
+.service h3 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: black;
+    font-size: 30px;
+}
+
+.porfolios {
+    padding: 80px 0px;
+    text-align: center;
+    color: rgb(35, 139, 91);
+}
+
+.porfolios h2 {
+    font-size: 55px;
+}
+
+
+.porfolios h3 {
+    font-size: 45px;
+}
+
+
+.porfolios h4 {
+    font-size: 45px;
+}
+
+.porfolio {
+    display: flex;
+    align-items: center;
+}
+
+.porfolio img {
+    width: 350px;
+}
+
+.porfolio-1 {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.porfolio-1 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-1 p {
+    font-size: 30px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.porfolio-2 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.porfolio-2 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-2 p {
+    font-size: 30px;
+    color: grey;
+    margin-bottom: 25px;
+}
+
+
+.porfolio-3 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.porfolio-3 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-3 p {
+    : 18px;
+    color: grey;
+    margin-bottom: 25px;
+}
+
+.porfolio-4 {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.porfolio-4 h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.porfolio-4 p {
+    font-size: 30px;
+    color: grey;
+    margin-bottom: 25px;
+}
+
+
+
+.btn-2 {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: gray;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: blueviolet;
+}
+
+.footer {
+    padding: 200px 0px 30px;
+    background-image: url(imagenes/vestidonavidad.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.info-content {
+    display: flex;
+}
+
+.info-price {
+    padding: 35px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px;
+    color: black;
+}
+
+.info-price h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 30px;
+    color: blue !important;
+    margin-bottom: 10px;
+}
+
+.info-price p {
+    font-size: 30px;
+    color: black;
+}
+
+.info-txt {
+    margin-left: 35px;
+    color: black;
+}
+
+hr {
+    margin: 45px 0px;
+    border: 0.5px solid brown;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.enlaces h3 {
+    font-size: 30px;
+
+}
+
+.enlace {
+    display: flex;
+}
+
+.enlace li a {
+    display: block;
+    margin: 20px;
+    color: white;
+}
+
+.enlace li a:hover {
+    color: blue;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: blue;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu.checked~.navbar {
+        display: initial;
+    }
+
+    header {
+        height: 0vh;
+        padding: 400px 0px;
+        background-position: center center;
+    }
+
+    .header.content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+
+    .content {
+        padding: 0px;
+    }
+
+    .content h1 {
+        margin-top: 100px;
+        font-size: 45px;
+    }
+
+    .content p {
+        margin-top: 0px;
+    }
+
+    .header.content img {
+        width: 150px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 50px 30px 0px 30px;
+    }
+
+    .service {
+        margin-bottom: 50px;
+    }
+
+    .porfolios {
+        padding: 0px 30px 30px 30px;
+    }
+
+    .porfolios h2 {
+        margin-bottom: 15px;
+    }
+
+    .porfolio {
+        flex-direction: column;
+    }
+
+    .porfolio img {
+        display: none;
+    }
+
+    .porfolio-1 {
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .porfolio-2 {
+        text-align: center;
+        margin: 0px 0px 25px 0px;
+    }
+
+    footer {
+        padding: 0px 30px 30px 30px;
+    }
+
+    .info-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-price {
+        margin: 0px 0px 20px 0px;
+    }
+
+    .info-txt {
+        margin: 0px;
+    }
+
+    hr {
+        margin: 25px 0px;
+    }
+
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .enlace {
+        flex-direction: column;
+    }
+
+
+/* ES DEL CSS */
+
+
+
+
+}
+body {
+    background-color: rgb(226, 224, 224);
+}
+
+/* Estilos de header  */
+
+header {
+    background-image: url(../images/vestidonavidad.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.top-header {
+    background-color: rgb(186, 245, 245);
+    padding: 15px;
+}
+
+.container {
+    max: width 1000px;;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.div-input {
+    margin-right: 20px;
+}
+
+.ingresodato {
+    width: 150px;
+    height: 30px;
+
+}
+
+header .logoybarra {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+header .logo {
+    width: 20vw;
+}
+
+header h2 {
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header h2 div {
+    font-size: 30px;
+}
+
+header .form .input {
+    background-color: white;
+    color: #111010;
+    outline: none;
+    width: 40vw;
+    font-size: 8px;
+    padding: 7px;
+    height: 20px;
+    margin: 5px;
+    overflow: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header .form {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+header .compraencuotas {
+    width: 100%;
+    font-size: 40px;
+}
+
+header .menu {
+    padding: 15px
+}
+
+header {
+    padding: 10px;
+}
+
+header nav {
+    font-size: 30px;
+    display: none;
+}
+
+header .menu_tienda {
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+header .items_menu_tienda {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .menu_usuario {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+}
+
+header .hamburguer-button {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+header .hamburguer-button i {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #0044AA;
+    box-sizing: border-box;
+    color: white;
+    font-size: 30px;
+
+}
+
+/* Estilos de cuerpo principal Home */
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logobanner {
+    width: 100%
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+h4 {
+    padding: 15px;
+}
+
+main img {
+    width: 85%
+}
+
+/* Primer punto del último desafío*/
+main section article:hover .descripcion {
+    opacity: 100%;
+    transition: 2000ms;
+}
+
+.descripcion {
+    display: block;
+    opacity: 0%;
+}
+
+/* ---------------------------- */
+
+/* Segundo punto del último desafío */
+main section article:hover {
+    box-shadow: 0px 0px 10px blueviolet;
+    transition: 300ms;
+}
+
+/* ---------------- */
+
+main article .main-article {
+    padding: 10px;
+    border-top: 10px solid #141414;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section article {
+    background-color: bisque;
+    margin-bottom: 10px;
+    transition: all;
+}
+
+main section article :hover {
+    color: #333330;
+}
+
+main section article img {
+    margin: 100px;
+}
+
+main section .listado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+/* último desafío */
+main section article i {
+    display: block;
+    font-size: 30px;
+    color: #39b54a;
+    padding: 5px;
+    width: 15px;
+    height: 20px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 30px;
+    top: 10 px;
+}
+
+.fas {
+    transform: rotate;
+    transition: 1000ms;
+}
+
+.fas:hover {
+    transform: rotate(-90deg);
+}
+
+.descuento {
+    font-size: 30px;
+    color: #39b54a;
+    flex-grow: 0.7;
+}
+
+.precio {
+    font-size: 30px;
+    flex-grow: 0.3;
+    padding-left: 10px;
+    transition: all;
+}
+
+/* -------------------------*/
+
+.descripcion {
+    font-size: 30x;
+    display: none;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    padding: 15px;
+}
+
+footer section {
+    padding: 15px;
+    text-align: center;
+}
+
+footer section div {
+    text-align: center;
+    padding: 10px
+}
+
+footer section div i {
+    color: blue;
+}
+
+.fa-solid {
+    transition: all, 300ms;
+}
+
+.fa-solid:hover {
+    color: #ea899a;
+}
+
+
+
+/* Responsive Tablet y Compu */
+
+/* Tablet */
+@media (min-width: 361px) {
+
+    .descripcion {
+        display: block
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px black;
+    }
+
+    header nav {
+        display: block;
+        display: flex;
+        font-size: 30px;
+    }
+
+    header .hamburguer-button {
+        display: none;
+    }
+
+    main section article {
+        width: 40%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    header .items_menu_tienda {
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    header .logo {
+        width: 20vw;
+    }
+
+    header .logoybarra {
+        display: flex;
+        flex-wrap: unset;
+        justify-content: left;
+    }
+
+    header .form .input {
+        width: 30vw;
+        font-size: 30px;
+    }
+
+    header .compraencuotas {
+        width: 25vw;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 510px) {
+    header nav {
+        margin-top: 10px;
+    }
+}
+
+
+/* Compu */
+
+@media (min-width: 769px) {
+
+    main section article {
+        width: 22%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    header .form .input {
+        width: 30vw;
+        font-size: 30px;
+    }
+
+    header .compraencuotas {
+        width: 30vw;
+    }
+
+    header .items_menu_tienda {
+        font-size: 30px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    footer .cajasfooter {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+/*redes sociales*/
+footer .rs-flex-container {
+
+    display: flex;
+}
+
+.botonAgregar,
+.botonModificar {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.botonVolver {
+    color: white;
+    background-color: #00B7FF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.botonBorrar {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* formulario */
+body .listadoform {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: solid #101215;
+    font-size: 30px;
+    width: 50%;
+    background-color: rgb(234, 246, 167);
+    border-radius: 25px;
+}
+
+body .tituloform {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+}
+
+.ingresodato {
+    margin-bottom: 3%;
+}
+
+.botonenviar {
+    transition: all;
+}
+
+.botonenviar :hover {
+    background-color: #0022AA;
+    transition: 1000ms;
+}
+
+.fotodeusuario {
+    border-collapse: collapse;
+}

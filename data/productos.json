@@ -1,0 +1,77 @@
+[
+ {
+  "imagen": "../public/images/abejita.jpg",
+  "articulo": "AMIGURUMI ABEJITA ",
+  "modelo": "1",
+  "descripcion": "LOREM",
+  "precio": "COP $ 25.000 ",
+  "id": "1"
+ },
+ {
+  "imagen": "../public/images/caracolita.jpg",
+  "articulo": "AMIGURUMI CARACOLITA",
+  "modelo": "2",
+  "descripcion": "LOREM",
+  "precio": "COP $ 30.000",
+  "id": "2"
+ },
+ {
+  "imagen": "../public/images/mochilitas.jpeg",
+  "articulo": "AMIGURUMI MOCHILA ",
+  "modelo": "3",
+  "descripcion": " ",
+  "precio": "COP $ 30.000",
+  "id": "3"
+ },
+ {
+  "imagen": "../public/images/conchita.png",
+  "articulo": "AMIGURUMI CONCHITA ",
+  "modelo": "4",
+  "descripcion": "lorem ",
+  "precio": "COP $ 25.000 ",
+  "id": "4"
+ },
+ {
+  "imagen": "../public/images/individual.jpg",
+  "articulo": "AMIGURUMI 5",
+  "modelo": "5,",
+  "descripcion": "LOREM",
+  "precio": "COP $ 30.000",
+  "id": "5"
+ },
+ {
+  "imagen": "../public/images/mochilitas.jpeg",
+  "articulo": "AMIGURUMI 6",
+  "modelo": "6 ",
+  "descripcion": "LOREM ",
+  "precio": "COP $ 25.000 ",
+  "id": "6"
+ },
+ {
+  "imagen": "../public/images/perrito.jpg",
+  "articulo": "AMIGURUMI 7",
+  "modelo": "7",
+  "descripcion": "LOREM",
+  "precio": "COP $ 30.000",
+  "id": "7"
+ },
+ {
+  "imagen": "../public/images/tortuguitas.png",
+  "articulo": "AMIGURUMI 8 ",
+  "modelo": "8",
+  "descripcion": "LOREM",
+  "precio": "COP $ 30.000",
+  "id": "8"
+ },
+ {
+  "imagen": "../public/images/vestidonavidad.jpg",
+  "articulo": "AMIGURUMI 9",
+  "modelo": "9",
+  "descripcion": " LOREM   ",
+  "precio": "COP $ 25.000 ",
+  "id": "9"
+ },
+ {
+  "id": 10
+ }
+]
